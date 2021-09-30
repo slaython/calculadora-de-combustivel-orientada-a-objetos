@@ -1,8 +1,8 @@
 class Calculo:
     def __init__(self):
-        self.__valor_gasolina = 4.80
-        self.__valor_alcool = 3.80
-        self.__valor_diesel = 3.90
+        self.__valor_gasolina = 6.59
+        self.__valor_alcool = 5.85
+        self.__valor_diesel = 5.29
 
     def calcular_gasto(self, distancia, consumo):
         if (distancia <= 0 or consumo <= 0):
